@@ -376,7 +376,7 @@ int CDS_Sit::PrepareDepthFrame()
 	}
 	pFrameDescription->Release();
 	pFrameDescription = nullptr;
-
+	//1233
 	// 2c. get some dpeth only meta
 	this->pDepthFrameSource->get_DepthMinReliableDistance(&this->m_uDepthMin);
 	this->pDepthFrameSource->get_DepthMaxReliableDistance(&this->m_uDepthMax);
